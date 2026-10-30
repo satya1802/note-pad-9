@@ -5,7 +5,7 @@
 <!-- sdlc:auto:start overview -->
 simple note pad
 
-**Documentation version:** v1
+**Documentation version:** v2
 <!-- sdlc:auto:end overview -->
 
 ## Contents
@@ -14,7 +14,7 @@ simple note pad
 | Document | State |
 |---|---|
 | [Requirements](requirements/README.md) | v1 approved |
-| [Architecture](architecture/README.md) | 1 entry |
+| [Architecture](architecture/README.md) | 12 entries |
 | [Development](development/README.md) | 1 entry |
 | [Testing](testing/README.md) | 1 entry |
 | [Deployment](deployment/README.md) | 1 entry |
@@ -31,7 +31,7 @@ simple note pad
 | [Runbook](deployment/runbook.md) | not deployed yet |
 | [Release notes](deployment/release-notes.md) | 0 releases |
 | [Traceability matrix](traceability-matrix.md) | 14 requirements |
-| [Changelog](CHANGELOG.md) | 1 version |
+| [Changelog](CHANGELOG.md) | 2 versions |
 <!-- sdlc:auto:end contents -->
 
 ## Open gaps
@@ -47,8 +47,8 @@ simple note pad
 
 ### Architecture
 
-- Architecture phase has not started: no screen designs, API contracts, data model, or infrastructure/deployment design available.
-- Open assumptions from requirements that design should resolve: exact password rules, whether sign-up sends a verification email, and whether note saving is auto-save or explicit-save.
+- No explicit mapping given from this architecture to specific requirement IDs (US-001..US-014); traceability between requirements and architecture elements could not be confirmed and should be verified by a human.
+- Choice between ECS Fargate and App Runner for the API is left open ('ECS Fargate / App Runner') and not finalized in this input.
 
 ### Development
 
