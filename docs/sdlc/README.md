@@ -5,7 +5,7 @@
 <!-- sdlc:auto:start overview -->
 simple note pad
 
-**Documentation version:** v2
+**Documentation version:** v3
 <!-- sdlc:auto:end overview -->
 
 ## Contents
@@ -15,14 +15,14 @@ simple note pad
 |---|---|
 | [Requirements](requirements/README.md) | v1 approved |
 | [Architecture](architecture/README.md) | 12 entries |
-| [Development](development/README.md) | 1 entry |
+| [Development](development/README.md) | 5 entries |
 | [Testing](testing/README.md) | 1 entry |
 | [Deployment](deployment/README.md) | 1 entry |
 | [Maintenance](maintenance/README.md) | 1 entry |
 | [Data model](architecture/data-model.md) | generated |
 | [API (OpenAPI)](architecture/api/openapi.yaml) | generated |
 | [Decisions (ADRs)](architecture/adr/README.md) | 4 decisions |
-| [Sprint plan](development/sprint-plan.md) | not generated yet |
+| [Sprint plan](development/sprint-plan.md) | 4 sprints |
 | [Developer guide](development/developer-guide.md) | generated |
 | [API reference](development/api-reference.md) | 1 route |
 | [Test report](testing/test-report.md) | not run yet |
@@ -31,7 +31,7 @@ simple note pad
 | [Runbook](deployment/runbook.md) | not deployed yet |
 | [Release notes](deployment/release-notes.md) | 0 releases |
 | [Traceability matrix](traceability-matrix.md) | 14 requirements |
-| [Changelog](CHANGELOG.md) | 2 versions |
+| [Changelog](CHANGELOG.md) | 3 versions |
 <!-- sdlc:auto:end contents -->
 
 ## Open gaps
@@ -52,7 +52,15 @@ simple note pad
 
 ### Development
 
-- Development phase has not started; no tickets, code, or implementation notes exist yet to document.
+- No development execution status (ticket progress, commits, pull requests, code review outcomes) is present in this input — only the approved backlog/plan structure is available.
+- The input lists sprints and backlog items as separate lists without explicit sprint-to-item assignment; this documentation infers groupings from sprint goal wording matched to epic themes, and that inference should be confirmed against the actual plan.
+- No record of task/story completion, blockers, or code delivered for Sprint 1 in this input.
+- Sprint assignment of these items is inferred from goal wording, not explicitly stated.
+- No record of task/story completion, blockers, or code delivered for Sprint 2 in this input.
+- No record of task/story completion, blockers, or code delivered for Sprint 3 in this input.
+- US-012 (Protect account credentials, 3 pts, security-agent, EPIC-004) is not clearly covered by any sprint goal's wording — Sprint 1 covers 'secure credential handling' and Sprint 3 covers 'privacy enforcement,' so it is ambiguous which sprint US-012 belongs to; this should be confirmed rather than assumed.
+- No record of task/story completion, blockers, or code delivered for Sprint 4 in this input.
+- 14 of the sprint's 20-point capacity is unaccounted for by the two listed stories; no other items were identified as belonging to this sprint, which may indicate missing backlog items or an intentionally light sprint — not stated in the input.
 
 ### Testing
 
